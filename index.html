@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LegendOdds.com | Sovereign AI & Institutional Predictive Analytics</title>
+    <meta name="description" content="Acquire LegendOdds.com. The premier domain for Sovereign AI, Institutional Betting, and High-Stakes Financial Risk Modeling. View the 2026 valuation report.">
+    <meta name="keywords" content="LegendOdds, Premium Domain, Sovereign AI, Institutional Betting, Risk Modeling, Fintech, Enterprise AI">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-bg: #050b14; /* Deep Prussian Blue */
+            --secondary-bg: #0a121f;
+            --accent-gold: #d4af37; /* Burnished Gold */
+            --accent-silver: #e5e7eb;
+            --text-main: #ffffff;
+            --text-dim: #94a3b8;
+            --success: #10b981;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background-color: var(--primary-bg); color: var(--text-main); line-height: 1.6; overflow-x: hidden; }
+
+        /* --- Top Bar --- */
+        .top-bar {
+            background: linear-gradient(90deg, #0f172a, #d4af37);
+            color: white;
+            padding: 8px 5%;
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+        .top-bar a { color: white; text-decoration: none; margin-left: 15px; }
+
+        /* --- Header --- */
+        header {
+            position: sticky;
+            top: 0;
+            background: rgba(5, 11, 20, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 15px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            border-bottom: 1px solid #1e293b;
+        }
+        .logo-text { font-family: 'Playfair Display', serif; font-size: 1.5rem; color: var(--accent-gold); text-decoration: none; }
+        nav a { color: var(--text-main); text-decoration: none; margin-left: 25px; font-weight: 500; transition: 0.3s; }
+        nav a:hover { color: var(--accent-gold); }
+
+        /* --- Hero Section --- */
+        .hero {
+            padding: 120px 5% 80px;
+            text-align: center;
+            background: radial-gradient(circle at center, #0f172a 0%, #050b14 100%);
+        }
+        .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(2.5rem, 8vw, 4.5rem); font-weight: 700; letter-spacing: -1px; margin-bottom: 20px; }
+        .hero span { background: linear-gradient(to right, #d4af37, #fde68a); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .hero p { font-size: 1.25rem; color: var(--text-dim); max-width: 850px; margin: 0 auto 35px; }
+        
+        .cta-group { display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; }
+        .btn { padding: 15px 40px; border-radius: 4px; font-weight: 700; text-decoration: none; transition: 0.3s transform; cursor: pointer; border: none; text-transform: uppercase; letter-spacing: 1px; }
+        .btn:hover { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(0,0,0,0.3); }
+        .btn-primary { background: var(--accent-gold); color: #000; }
+        .btn-outline { border: 1px solid var(--accent-gold); color: var(--accent-gold); }
+
+        /* --- Industry Fits --- */
+        section { padding: 100px 5%; }
+        .section-title { font-family: 'Playfair Display', serif; font-size: 2.75rem; margin-bottom: 50px; text-align: center; }
+        
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .card { background: var(--secondary-bg); padding: 40px; border-radius: 4px; border: 1px solid #1e293b; transition: 0.3s; position: relative; }
+        .card::before { content: ""; position: absolute; top: 0; left: 0; width: 4px; height: 100%; background: var(--accent-gold); }
+        .card:hover { border-color: var(--accent-gold); background: #0f172a; }
+        .card h3 { margin-bottom: 20px; color: var(--accent-gold); font-family: 'Playfair Display', serif; font-size: 1.5rem; }
+        .card ul { list-style: none; color: var(--text-dim); }
+        .card ul li { margin-bottom: 12px; font-size: 1rem; }
+
+        /* --- Valuation Report --- */
+        .valuation-report { background: #0f172a; border-radius: 4px; padding: 60px; margin: 40px 0; border: 1px solid #1e293b; }
+        .val-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 25px; }
+        table th, table td { text-align: left; padding: 15px; border-bottom: 1px solid #1e293b; }
+        .price-tag { font-size: 2.25rem; color: var(--success); font-weight: 800; font-family: 'Playfair Display', serif; }
+
+        /* --- Fixed Bottom Bar --- */
+        .fixed-bottom {
+            position: fixed;
+            bottom: 25px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(10, 18, 31, 0.95);
+            border: 1px solid var(--accent-gold);
+            backdrop-filter: blur(15px);
+            padding: 15px 40px;
+            border-radius: 4px;
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            z-index: 2000;
+        }
+
+        /* --- Footer --- */
+        footer { background: #020617; padding: 80px 5%; border-top: 1px solid #1e293b; text-align: center; }
+        .contact-info { margin: 40px 0; }
+        
+        @media (max-width: 768px) {
+            .val-grid { grid-template-columns: 1fr; }
+            .top-bar { display: none; }
+            .fixed-bottom { width: 95%; gap: 10px; padding: 10px; font-size: 0.85rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top-bar">
+        <span>Institutional Asset Acquisition | Q1 2026 Portfolio</span>
+        <div>
+            <a href="mailto:sales@elijul.com">✉ sales@elijul.com</a>
+            <a href="https://wa.me/250788660513">💬 +250 788 660 513</a>
+        </div>
+    </div>
+
+    <header>
+        <a href="#" class="logo-text">LEGEND ODDS</a>
+        <nav>
+            <a href="#fits">Sectors</a>
+            <a href="#valuation">Valuation</a>
+            <a href="#contact">Contact</a>
+            <a href="https://www.atom.com/name/legendodds" class="btn btn-primary" style="padding: 10px 25px; font-size: 0.8rem;">Acquire</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Define Authority with <span>LegendOdds.com</span></h1>
+        <p>The definitive domain for Sovereign AI, Private High-Stakes Analytics, and Institutional Risk Modeling. Part of the 2026 "Legend" Infrastructure Suite.</p>
+        <div class="cta-group">
+            <a href="https://www.atom.com/name/legendodds" class="btn btn-primary">Secure via ATOM Premium</a>
+            <a href="#valuation" class="btn btn-outline">Asset Valuation</a>
+        </div>
+    </section>
+
+    <section id="fits">
+        <h2 class="section-title">Strategic Integration</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>🏛️ Sovereign Betting</h3>
+                <ul>
+                    <li>• Private Odds Distribution</li>
+                    <li>• Institutional Liquidity Layers</li>
+                    <li>• VIP Risk Architectures</li>
+                    <li>• Proprietary Betting Exchanges</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>🛡️ Enterprise Fintech</h3>
+                <ul>
+                    <li>• Predictive Yield Modeling</li>
+                    <li>• Institutional Default Risk</li>
+                    <li>• Hedge Fund Signal Engines</li>
+                    <li>• Sovereign Debt Analytics</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>⚖️ Legal & Compliance</h3>
+                <ul>
+                    <li>• Audit-Ready Probability Tech</li>
+                    <li>• Regulated Market Modeling</li>
+                    <li>• Transparency Dashboards</li>
+                    <li>• Responsible Gaming AI</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>💎 Wealth Management</h3>
+                <ul>
+                    <li>• Alternative Asset Betting</li>
+                    <li>• High-Net-Worth Portals</li>
+                    <li>• Estate Probability Tools</li>
+                    <li>• Private Alpha Generation</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="valuation" style="background: #020617;">
+        <div class="valuation-report">
+            <h2 class="section-title" style="text-align: left; margin-bottom: 20px;">2026 Asset Report</h2>
+            <div class="val-grid">
+                <div>
+                    <p><strong>LegendOdds.com</strong> sits at the apex of the "Sovereign AI" trend. As corporations move away from public models, "Legend" has become the hallmark of private, high-security architecture.</p>
+                    <table>
+                        <tr><th>Strategic Metric</th><th>Rating</th></tr>
+                        <tr><td>Institutional Appeal</td><td>9.8/10</td></tr>
+                        <tr><td>Category Authority</td><td>Tier 1</td></tr>
+                        <tr><td>Market Liquidity</td><td>Very High</td></tr>
+                        <tr><td>Portfolio Synergy</td><td>LegendLLM / LegendMesh</td></tr>
+                    </table>
+                </div>
+                <div>
+                    <h3>Market Anchors</h3>
+                    <table>
+                        <tr><td>LegendLLM.com (Valued)</td><td>$115,000</td></tr>
+                        <tr><td>PrivateLLM.com (Sold)</td><td>$250,000</td></tr>
+                        <tr><td>Mindmesh.com (Sold)</td><td>$160,000</td></tr>
+                        <tr><td>SovereignBet.com (Est)</td><td>$82,000</td></tr>
+                        <tr style="color:var(--accent-gold)"><td>Target Valuation</td><td><strong>$45k - $85k</strong></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" style="text-align: center;">
+        <h2 class="section-title">Acquisition Inquiry</h2>
+        <div class="contact-info">
+            <p style="text-transform: uppercase; letter-spacing: 2px; color: var(--text-dim); margin-bottom: 10px;">Direct Concierge</p>
+            <h2 style="color: var(--accent-gold); font-family: 'Playfair Display', serif; font-size: 2.5rem; margin-bottom: 20px;">sales@elijul.com</h2>
+            <p>Institutional Brokerage Line:</p>
+            <h2 style="color: var(--success); font-family: 'Playfair Display', serif; margin: 10px 0;">+250 788 660 513</h2>
+        </div>
+        <a href="https://wa.me/250788660513" class="btn btn-primary">Connect on WhatsApp</a>
+    </section>
+
+    <footer>
+        <p style="font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--accent-gold);">&copy; 2026 LEGEND ODDS ACQUISITION PORTAL</p>
+        <p style="font-size: 0.8rem; color: #475569; margin-top: 15px; letter-spacing: 1px;">A Premium Asset of EliJul Group | Secure Transfer via Escrow.com or ATOM</p>
+    </footer>
+
+    <div class="fixed-bottom">
+        <a href="mailto:sales@elijul.com" style="text-decoration:none; color:white; font-weight:600;">📧 EMAIL</a>
+        <a href="https://wa.me/250788660513" style="text-decoration:none; color:var(--accent-gold); font-weight:bold;">💬 WHATSAPP</a>
+        <a href="https://www.atom.com/name/legendodds" class="btn btn-primary" style="padding: 8px 25px; font-size: 0.75rem;">BUY NOW</a>
+    </div>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = 1;
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.card').forEach((el) => {
+            el.style.opacity = 0;
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = '0.8s cubic-bezier(0.2, 0.8, 0.2, 1)';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
